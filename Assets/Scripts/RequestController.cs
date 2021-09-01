@@ -1,10 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using RestSharp;
 using Vlab.WebRequest;
 using Vlab.WebRequest.Response;
-using System;
 
 /// <summary>
 /// A central manager class that stores the init conditions and process REST request and response:

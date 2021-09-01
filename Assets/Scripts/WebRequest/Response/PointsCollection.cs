@@ -6,6 +6,8 @@ namespace Vlab.WebRequest.Response
     /// <summary>
     /// Classes that defined for accepting deserialization of JSON response 
     /// from ArcGIS MapServer QUERY operation. The root is <c>PointsCollection</c>
+    /// NOTE: some attributes are commented to save space and time, since we never use the,
+    /// in the project, can be uncommented to retrieve info again
     /// </summary>
     public class PointGeometry
     {

@@ -1,7 +1,5 @@
 namespace Vlab.WebRequest
 {
-    using System.Collections;
-    using System.Collections.Generic;
     using UnityEngine;
     using RestSharp;
     using System;
