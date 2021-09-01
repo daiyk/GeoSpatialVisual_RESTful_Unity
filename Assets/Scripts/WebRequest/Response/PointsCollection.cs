@@ -2,8 +2,11 @@ namespace Vlab.WebRequest.Response
 {
     using System.Collections.Generic;
     using System.Text.Json.Serialization;
- 
 
+    /// <summary>
+    /// Classes that defined for accepting deserialization of JSON response 
+    /// from ArcGIS MapServer QUERY operation. The root is <c>PointsCollection</c>
+    /// </summary>
     public class PointGeometry
     {
         public PointGeometry() { }
@@ -22,8 +25,10 @@ namespace Vlab.WebRequest.Response
     {
         public Points() { }
         public Points(double x, double y) { Point = new PointGeometry(x,y); }
+
         //[JsonPropertyName("attributes")]
         //public Attributes Attribute { get; set; }
+
         [JsonPropertyName("geometry")]
         public PointGeometry Point { get; set; }
     }
